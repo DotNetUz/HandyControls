@@ -1178,15 +1178,6 @@ namespace HandyControlDemo.Properties.Langs {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 概览.
-        /// </summary>
-        public static string Overview {
-            get {
-                return ResourceManager.GetString("Overview", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 页码条.
         /// </summary>
         public static string Pagination {
@@ -1503,6 +1494,15 @@ namespace HandyControlDemo.Properties.Langs {
         }
         
         /// <summary>
+        ///   查找类似 截图 的本地化字符串。
+        /// </summary>
+        public static string Screenshot {
+            get {
+                return ResourceManager.GetString("Screenshot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 滚动视图.
         /// </summary>
         public static string ScrollViewer {
@@ -1619,6 +1619,15 @@ namespace HandyControlDemo.Properties.Langs {
             }
         }
         
+         /// <summary>
+        ///   查找类似 开始截图 的本地化字符串。
+        /// </summary>
+        public static string StartScreenshot {
+            get {
+                return ResourceManager.GetString("StartScreenshot", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to 保持打开.
         /// </summary>
